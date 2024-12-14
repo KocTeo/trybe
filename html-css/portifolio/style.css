@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 30px;
+  background-color: azure;
+}
+
+header {
+  width: 100vw;
+  background-color: beige;
+  
+  nav {
+    display: flex;
+    gap: 15px;
+    margin: 15px;
+    
+  }
+  
+}
+
+#personal-info {
+  display: flex;
+  width: 900px;
+  justify-content: space-around;
+
+  margin: 15px;
+
+  img {
+    width: 350px;
+  }
+
+  div {
+    margin: 15px;
+    p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+      text-align: justify;
+    }
+  }
+}
+
+#skills {
+  display: flex;
+  gap: 150px;
+
+  h2 {
+    margin-bottom: 15px;
+  }
+
+  ul {
+    list-style: none;
+    font-size: x-large;
+  }
+}
